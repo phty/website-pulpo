@@ -1,0 +1,103 @@
+---
+title: Coopcoin
+---
+.bRow
+  .bRow-content
+    .bList.asCentered
+      .bList-item
+        %h1.aHeadline.asLeft.asLarger= t('factoring.header.headline')
+        .aText
+          .aText-paragraph= t('factoring.header.text1')
+          .aText-paragraph= t('factoring.header.text2')
+          .aText-paragraph= t('factoring.header.text3')
+          .aText-paragraph= t('factoring.header.text4')
+      .bList-item
+        = image_tag('images/pulpo/jefelogistica1800.png', height: '300', width: '350')
+.bRow.asSecondary.withLargePadding{:id=>'fondo'}
+  .bRow-content
+    %h2.aHeadline= t('factoring.functionalities.headline')
+    .bList.withThreeItems
+      .bList-item
+        .aText
+          .aText-paragraph= t('factoring.functionalities.Opt1')
+          .aText-paragraph= t('factoring.functionalities.Opt2')
+          .aText-paragraph= t('factoring.functionalities.Opt3')
+          .aText-paragraph= t('factoring.functionalities.Opt4')
+          .aText-paragraph= t('factoring.functionalities.Opt5')
+          .aText-paragraph= t('factoring.functionalities.Opt6')
+          .aText-paragraph= t('factoring.functionalities.Opt7')
+          .aText-paragraph= t('factoring.functionalities.Opt8')
+      .bList-item
+      .bList-item
+        .aText{:id=>'textAling_right'}
+          .aText-paragraph= t('factoring.functionalities.Opt_1')
+          .aText-paragraph= t('factoring.functionalities.Opt_2')
+          .aText-paragraph= t('factoring.functionalities.Opt_3')
+          .aText-paragraph= t('factoring.functionalities.Opt_4')
+          .aText-paragraph= t('factoring.functionalities.Opt_5')
+          .aText-paragraph= t('factoring.functionalities.Opt_6')
+          .aText-paragraph= t('factoring.functionalities.Opt_7')
+          .aText-paragraph= t('factoring.functionalities.Opt_8')
+          .aText-paragraph= t('factoring.functionalities.Opt_9')
+.bRow.withLargePadding
+  .bRow-content
+    %h2.aHeadline= t('factoring.documentation.headline')
+    .aButtons
+      = link_to t('factoring.documentation.button1'), 'PULPO_WMS_en.pdf', class: 'aButton'
+.bRow.asSecondary
+  .bRow-content
+    %h2.aHeadline= t('factoring.process.headline')
+    .bList
+      .bList-item
+        = image_tag('images/pulpo/workflow_small.png')
+      .bList-item
+        .aStep
+          .aStep-number 1.
+          .aStep-text{:id=>'negrita'}='Reception: '
+          .aStep-text= t('factoring.steps.step1')
+        .aStep
+          .aStep-number 2.
+          .aStep-text{:id=>'negrita'}='Warehousing: '
+          .aStep-text= t('factoring.steps.step2')
+        .aStep
+          .aStep-number 3.
+          .aStep-text{:id=>'negrita'}='Picking: '
+          .aStep-text= t('factoring.steps.step3')
+        .aStep
+          .aStep-number 4.
+          .aStep-text{:id=>'negrita'}='Packing: '
+          .aStep-text= t('factoring.steps.step4')
+        .aStep
+          .aStep-number 5.
+          .aStep-text{:id=>'negrita'}='Dispatch: '
+          .aStep-text= t('factoring.steps.step5')
+/*.bRow.withCoinBackground*/
+.bRow
+  .bRow-content
+    %h2.aHeadline= t('factoring.roadmap.headline')
+    .aTimeline
+      .aTimeline-entry
+        .aTimeline-entry-title= t('factoring.roadmap.step1.headline')
+        .aTimeline-entry-detail
+          :markdown
+            #{t('factoring.roadmap.step1.text')}
+      .aTimeline-entry
+        .aTimeline-entry-title= t('factoring.roadmap.step2.headline')
+        .aTimeline-entry-detail
+          :markdown
+            #{t('factoring.roadmap.step2.text')}
+      .aTimeline-entry
+        .aTimeline-entry-title= t('factoring.roadmap.step3.headline')
+        .aTimeline-entry-detail
+          :markdown
+            #{t('factoring.roadmap.step3.text')}
+      .aTimeline-entry
+        .aTimeline-entry-title= t('factoring.roadmap.step4.headline')
+        .aTimeline-entry-detail
+          :markdown
+            #{t('factoring.roadmap.step4.text')}
+      .aTimeline-entry
+        .aTimeline-entry-title= t('factoring.roadmap.step5.headline')
+        .aTimeline-entry-detail
+          :markdown
+            #{t('factoring.roadmap.step5.text')}

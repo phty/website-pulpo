@@ -1,0 +1,25 @@
+.aNavigation
+  display: flex
+  padding: 0
+  margin: 0
+  list-style-type: none
+  font: $tiny-body-font
+  .aNavigation-item
+    margin-left: $margin
+    text-transform: uppercase
+    > a
+      text-decoration: none
+      color: $dark-grey
+      &:hover
+        text-decoration: underline
+  +breakpoint($phone)
+    position: absolute
+    left: 0
+    top: 70px
+    width: 100%
+    font: $regular-body-font
+    background: $base-color
+    box-shadow: 0 4px 6px #888889
+    .aNavigation-item
+      text-align: center
+      padding: 10px 0

@@ -1,0 +1,100 @@
+﻿en:
+  index:
+    business_case:
+      pre_headline: 'Our first Business Case:'
+      headline: 'Factoring of Accounts Receivables'
+      subline1: 'Business cases are created with assistance at the CoopCoin community through CoopCoin’s ABTRC standard.'
+      subline2: 'Visit our ABT site for more information and how to get involved.'
+    core:
+      headline: How PULPO WMS could impact your company
+      element1:
+        headline: Up to 50% LOWER COSTS
+        text: Improve the bottom line of your intra-logistics cost through a smart Warehouse Management System
+      element2:
+        headline: Up to 99% LESS ERRORS
+        text: See how PulpoWMS makes it almost impossible to create an error receiving, moving and dispatching your or clients products
+      element3:
+        headline: Up to 3x FASTER PICKINGS
+        text: Be impressed how quickly your staff can operate receiving optimized routes and splitting or bundling picking tasks
+      element4:
+        headline: 2+ WEEK IMPLEMENTATION
+        text: Start saving quickly, At well prepared clients we can get PULPO WMS up and running in 2 Weeks time through our implementation process (currently undergoing patent rewiew).
+    header:
+      headline: PULPO WMS
+      text1: PULPO Warehouse Management System allow you to take full control of your internal logistics. Automate your warehouse management processes, eliminate errors, connect all your systems and ensure maximun efficiency to safe money and time.
+    things:
+      headline: PULPO WMS 6 CORE PROCESSES
+      item1: '**INCOMING GOODS**: Your staff can see on their mobile devices which supplier (or your internal production line) will deliver products and in what quantity. This way the staff can quickly verify quantity and quality to either initiate the warehousing or send-back process.'
+      item2: '**WAREHOUSING**: Based on rules you can create, PULPO WMS automatically creates warehousing tasks to move the products into their optimal positions. Rules could be: how quickly a product rotates, limitations due to weight or volume, special zones for chemical products etc. There are no limits to your rules.'
+      item3: '**PICKING**: Your staff will become a lot quicker picking the products with our native Android App. BEEWMS automatically applies optimized routes for each task. To further advance your speed, you can also split up large orders into multiple pickings or create one batch pick with multiple orders (you could even split up batch picks again to minimize "positions touched").'
+      item4: '**PACKING**: PULPOWMS packing process ensures that the right products get shipped out to your clients in their correct quantity. It even helps you print out the shipping labels for every box that the picker creates so your logistics service will never again deliver the wrong box.'
+      item5: '**DISPATCH**: Create traceability on how long the boxes were waiting to be shipped and with whom they were sent out. In case the boxes do not arrive in the condition they were shipped, you will know which shipping company was responsible and appropriate actions can be taken.'
+      item6: '**REPLENISHMENT**: Create replenishment rules and let BEEWMS automatically create tasks to make sure that enough products are available in your warehouses picking locations, other warehouses or shops.'
+
+    whitepaper:
+      button: Coopcoin Whitepaper
+      headline1: PULPO WMS CAN HELP YOUR COMPANY BE MORE PRODUCTIVE
+      headline2: '& EFFICIENT, CONTACT US FOR A FREE CONSULTATION'
+  factoring:
+    benefits:
+      headline: 'CoopCoin’s core benefits for FABT:'
+      benefit1: 'ABTs can be identified from potential  investors around the globe, increasing probablilty of success'
+      benefit2: 'Additional features such as splittling & bundling of ABTs open up opportunies for private and institutional investors'
+      benefit3: 'Security through blockchain and  thorough research concerning relevant regulation create trust for all entities'
+      benefit4: 'Liquidity and tradability of  ABTs make them an attractive investment opportunity'
+      benefit5: 'Elimination of information asymmetry  leads to fairer pricing processes through  transparent market'
+    documentation:
+      headline: Please read the technical documentation for the ABT100 and the Business Case
+      button1: Read our ABTRC for Factoring
+      button2: ABT100 Business case
+    header:
+      headline: Factoring (ABT100)
+      text1: |
+        Factoring offers an attractive growth potential and important positive socio-economic impact due to its relatively small market share worldwide and until now prohibitively high costs.
+      text2: |
+        The Factoring-Asset-Based-Token “FABT” (ABT100) will allow companies to benefit from Factoring through secure, economic and transparent processes.
+    process:
+      headline: The process of an ABT100
+    roadmap:
+      headline: Roadmap estimation
+      step1:
+        headline: Q4 2018
+        text: |
+          - One fluid experience
+          - First third party audit
+      step2:
+        headline: Q1 2019
+        text: |
+          - Coop Coin 1.0
+          - Additional functionalities
+          - Bidding
+          - Advanced AML and KYC user management
+          - Subscription service for Investors
+          - Automated investing
+          - Second third party auditing
+      step3:
+        headline: Q2 2019
+        text: |
+          - CoopCoin to work with other assets
+          - Complete integration with Ethereum Network
+          - Automatic scaling
+          - Open API
+          - Exchange of ATBs with other markets
+          - 3rd party module for partner factoring companies
+          - First investment with crypto
+
+    steps:
+      step1: 'Partner creates factoring contract & requests CoopCoin to mint ABT100'
+      step2: 'Concensus on contract mints ABT100 & assigns ownership'
+      step3: 'Owner can sell or use ABT100 on secondary market  (e.g. as collateral)'
+      step4: 'CoopCoin signals ABT100 as ready to be liquidated & verifies ownership'
+      step5: 'Partner pays Owner & obtains cryptographic proof  of destruction of ABT100'
+  footer:
+    abuse: Report abuse
+    social: Connect with us through
+  navigation:
+    abts: ABTs
+    faq: FAQ
+    contact: CONTACT
+    home: HOME
+    productDetail: PRODUCT DETAILS

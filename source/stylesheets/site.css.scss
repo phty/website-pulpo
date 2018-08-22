@@ -1,0 +1,82 @@
+@import 'breakpoint';
+@import 'base/colors';
+@import 'base/typo';
+@import 'base/dimensions';
+@import 'base/element_defaults';
+@import 'base/utilities';
+
+@import 'atoms/button';
+@import 'atoms/icon_with_text';
+@import 'atoms/headline';
+@import 'atoms/navigation';
+@import 'atoms/step';
+@import 'atoms/text';
+@import 'atoms/text_with_headline';
+@import 'atoms/timeline';
+
+@import 'blocks/footer';
+@import 'blocks/header';
+@import 'blocks/list';
+@import 'blocks/row';
+
+#prueba{ 
+    background-image: url('../images/pulpo/Pulpo_200x259_Opacity.png') ;
+    background-repeat: no-repeat;
+    /*opacity: 0.3;*/
+    background-size: 30%;
+    background-position: center;
+}
+#fondo{ 
+    background-image: url('../images/pulpo/pulpoblanconotetxofw.png') ;
+    background-repeat: no-repeat;
+    /*opacity: 0.3;*/
+    background-size: 20%;
+    background-position: center;
+}
+#itemsMenu{
+    ul{
+        text-align:justify;
+        list-style-image: url('/images/icons/check.svg')
+    }
+    li {
+        padding-bottom: 2px;
+    }
+}
+#textAling_right
+{
+    text-align: right;
+    margin-bottom: $padding;
+}
+#negrita
+{
+    font-weight: bold;      
+}
+.btn {
+    background: #DE7D41;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    -webkit-transition: 0.2s ease-in-out all;
+    transition: 0.2s ease-in-out all;
+}
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.glyphicon-log-in:before {
+    content: url('/images/pulpo/baseline_mail_outline_white_18dp.png');
+}
+#footerCP
+{
+    text-align: right;
+    margin-top: 10%;
+}

@@ -1,0 +1,60 @@
+---
+title: Coopcoin
+---
+
+.bRow
+  .bRow-content
+    .bList.asCentered
+      .bList-item
+        %h1.aHeadline.asLeft.asLarger= t('index.header.headline')
+        .aText
+          .aText-paragraph= t('index.header.text1')
+      .bList-item
+        = image_tag('images/pulpo/jefelogistica1800.png', height: '300', width: '400')
+
+.bRow.asSecondary.withLargePadding
+  .bRow-content
+    %h2.aHeadline= t('index.core.headline')
+    .bList.asCentered
+      .bList-item
+        .aTextWithHeadline
+          .aTextWithHeadline-headline= t('index.core.element1.headline')
+          .aTextWithHeadline-text= t('index.core.element1.text')
+      .bList-item
+        .aTextWithHeadline
+          .aTextWithHeadline-headline= t('index.core.element2.headline')
+          .aTextWithHeadline-text= t('index.core.element2.text')
+      .bList-item
+        .aTextWithHeadline
+          .aTextWithHeadline-headline= t('index.core.element3.headline')
+          .aTextWithHeadline-text= t('index.core.element3.text')
+      .bList-item
+        .aTextWithHeadline
+          .aTextWithHeadline-headline= t('index.core.element4.headline')
+          .aTextWithHeadline-text= t('index.core.element4.text')
+
+.bRow.withLargePadding
+  .bRow-content
+    %h2.aHeadline.asLarger.asUppercase= t('index.things.headline')
+    .bList.withThreeItems
+      - 6.times do |i|
+        .bList-item
+          .aIconWithText.asSplit
+            .aIconWithText-icon= image_tag("pulpo/icons/icon#{i+1}.png", height: '50', width: '50') 
+            .aIconWithText-text
+              :markdown
+                #{t("index.things.item#{i+1}")}
+
+.bRow.asSecondary
+  .bRow-content
+    .aHeadline.asLarger= t('index.whitepaper.headline1')
+    .aHeadline.asLarger= t('index.whitepaper.headline2')
+    .uCentered= link_to t('index.whitepaper.button'), '#', class: 'aButton'
+.bRow
+  .bRow-content background-image:image-url('images/pulpo/Pulpo_200x259.png')
+    .bList.asCentered
+      .bList-item
+        %h3.aHeadline.asLarger= t('index.business_case.pre_headline')
+        .aText.asLarge
+          .aText-paragraph= t('index.business_case.subline1')
+          .aText-paragraph= t('index.business_case.subline2')        

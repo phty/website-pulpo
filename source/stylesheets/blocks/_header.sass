@@ -1,0 +1,20 @@
+.bHeaderWrapper
+  +layout_centered
+  padding: $margin 0 10px
+  border-bottom: 2px solid #5C2C8A
+  .bHeader
+    display: flex
+    justify-content: space-between
+    align-items: flex-end
+    .bHeader-hamburger
+      display: none
+    +breakpoint($tablet)
+      padding: $margin $padding 10px
+    +breakpoint($phone)
+      align-items: center
+      .bHeader-hamburger
+        display: block
+      .aNavigation
+        display: none
+        &.asOpen
+          display: block
