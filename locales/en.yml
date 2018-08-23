@@ -50,6 +50,7 @@
       Opt6: 'Inventory Management'
       Opt7: 'Optimization based on product rotation'
       Opt8: 'Serial Numbers, Batches & Expiration Dates'
+      Opt9: 'Quality Control'
       Opt_1: 'Replenishment (internal and external)'
       Opt_2: 'Personalization of Categories'
       Opt_3: 'Demand Management'
