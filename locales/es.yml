@@ -25,7 +25,7 @@
         text: Comience a ahorrar rápidamente. En clientes bien preparados, podemos poner en marcha PulpoWMS en 2 semanas a través de nuestro proceso de implementación (actualmente en proceso de revisión de patentes).
     header:
       headline: PULPO WMS
-      text1: PULPO Warehouse Management System allow you to take full control of your internal logistics. Automate your warehouse management processes, eliminate errors, connect all your systems and ensure maximun efficiency to safe money and time.
+      text1: PULPO WMS le permite tomar el control total de su logística interna. Automatice sus procesos de gestión de almacenes, elimine errores, conecte todos sus sistemas y garantice la máxima eficiencia para ahorrar dinero y tiempo.
     things:
       headline: LOS 6 PROCESOS CLAVES DE PULPO WMS
       item1: '**ENTRADA DE MERCANCÍA**: Su personal puede ver en sus dispositivos móviles qué proveedor (o línea de producción interna) entregará los productos y en qué cantidad. De esta forma, el personal puede verificar rápidamente la cantidad y la calidad para iniciar el proceso de almacenamiento o devolución.'
@@ -115,7 +115,7 @@
   navigation:
     abts: ABTs
     faq: FAQ
-    contact: CONTACT
-    home: HOME
-    productDetail: PRODUCT DETAILS
+    contact: CONTACTO
+    home: INICIO
+    productDetail: DETALLES DEL PRODUCTO
   
