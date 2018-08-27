@@ -10,5 +10,8 @@ document.addEventListener('DOMContentLoaded', function(){
         dataLayer.push({'event': 'pdf-download', 'file': this.href});
       }, false);
     }
+
+    
+
   }, false);
   
