@@ -6,7 +6,7 @@ activate :autoprefixer do |prefix|
 end
 
 activate :livereload
-activate :i18n,  :langs => [:en, :es], mount_at_root: :en, :path => "/langs/:locale/"
+activate :i18n
 set :markdown_engine, :redcarpet
 
 # Layouts
@@ -41,10 +41,11 @@ helpers do
     '(not found)'
   end
 
-  def local_path(path, options={})
-    lang = options[:locale] || I18n.locale.to_s
-    url_for "/#{lang}#{path}"
-  end
+  #def local_path(path, options={})
+  #  lang = options[:locale] == "en" ? "" : "/#{options[:locale]}"
+  #  _path = "#{path}".gsub(/\/(en|es)\//, "/")
+  #  url_for "/#{lang}#{_path}"
+  #end
 end
 
 configure :build do

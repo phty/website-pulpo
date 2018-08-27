@@ -113,9 +113,11 @@
     abuse: Report abuse
     social: Connect with us
   navigation:
-    abts: ABTs
-    faq: FAQ
     contact: CONTACTO
     home: INICIO
     productDetail: DETALLES DEL PRODUCTO
+  path:
+    contact: "/es/contact"
+    home: "/es/"
+    productDetail: "/es/productDetail"
   

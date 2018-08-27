@@ -118,4 +118,8 @@
     contact: CONTACT
     home: HOME
     productDetail: PRODUCT DETAILS
+  path:
+    contact: "/contact"
+    home: "/"
+    productDetail: "/productDetail"
   
