@@ -18,13 +18,16 @@
           #hamburger.bHeader-hamburger= svg_tag('hamburger')
           %ul#menu.aNavigation
             %li.aNavigation-item
-              = link_to I18n.t('navigation.home'), '/'
+              = link_to I18n.t('navigation.home'), local_path(uri_root_path)
             %li.aNavigation-item
-              = link_to I18n.t('navigation.productDetail'), 'productDetail'
+              = link_to I18n.t('navigation.productDetail'), local_path('/productDetail/')
             /*%li.aNavigation-item*/
             /*  = link_to I18n.t('navigation.faq'), '#'*/
-            %li.aNavigation-item
-              = link_to I18n.t('navigation.contact'), 'contact'
+            %li.aNavigation-item{:id=>'lgES'}
+              = link_to 'ES', local_path(current_page.url, locale: :es)
+              //= link_to "ES2", extensions[:i18n].localized_path(current_page.url, I18n.locale)
+            %li.aNavigation-item{:id=>'lgEN'}
+              = link_to 'EN', local_path(current_page.url, locale: :en)
     = yield
     .bFooterWrapper
       .bFooter
