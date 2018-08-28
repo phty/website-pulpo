@@ -1,6 +1,9 @@
 !!!
 %html
   %head
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-83907303-1"></script>
+    <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-83907303-1');</script>
     %meta{:charset => "utf-8"}/
     %meta{:content => "ie=edge", "http-equiv" => "x-ua-compatible"}/
     %meta{:content => "width=device-width, initial-scale=1, shrink-to-fit=no", :name => "viewport"}/
@@ -24,9 +27,8 @@
             %li.aNavigation-item
             = link_to I18n.t('navigation.contact'),I18n.t("path.contact")
             %li.aNavigation-item
-            = link_to 'ES',"/es"
-            %li.aNavigation-item
-            = link_to 'EN',"/"
+              = link_to 'ES/',"/es"
+              = link_to 'EN','http://pulpowms.com'
     = yield
     .bFooterWrapper
       .bFooter
