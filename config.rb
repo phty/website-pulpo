@@ -6,7 +6,7 @@ activate :autoprefixer do |prefix|
 end
 
 activate :livereload
-activate :i18n, :path => "/langs/:locale/",:lang_map => { :en => :en, :es => :es}
+activate :i18n
 set :markdown_engine, :redcarpet
 
 # Layouts
