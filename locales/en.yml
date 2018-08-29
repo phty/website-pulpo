@@ -8,7 +8,7 @@
       bussinnes3: 'Save time for fast moving goods with the cross-docking module'
       bussinnes4: 'As a 3PL, let clients view their own inventory and create orders with their own users'
       bussinnes5: 'Monitor your products expiration dates and make sure they don't expire in your warehouse'
-      bussinnes6: 'Connect all sales channels (B2B, Ecommerce) to Pulpo's API and show live information of your products availability'
+      bussinnes6: 'Connect all sales channels (B2B, Ecommerce) to Pulpo’s API and show live information of your products availability'
     core:
       headline: How PULPO WMS impacts your company
       element1:
