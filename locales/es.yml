@@ -1,4 +1,11 @@
 ﻿es:
+  pricing:
+      headline: Pulpo WMS starts at US$ 150 / month and includes
+      element1:
+        text1: Secured hosting in AWS
+        text2: Security Backups (1 per day for a week, 1 of each week for a month, 1 of each month ‘forever’)
+        text3: All future updates and functionalities at no additional cost
+        text4: Unlimited usage of our API with third-party systems
   index:
     business_case:
       pre_headline: 'OTROS BENEFICIOS Y FUNCIONALIDADES'
